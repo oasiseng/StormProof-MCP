@@ -5,7 +5,7 @@ https://storm-verification-api.elairet2021.workers.dev/api/preview.
 
 Only the preview tier is exposed here (wind/gust ranges + surge data if a tide
 gauge is within ~30 miles of the property). The full report — exact peak
-values, NWS alerts, storm events, AI narrative, citations, PE-signed PDF — is
+values, NWS alerts, storm events, AI narrative, citations — is
 a paid upgrade at https://hurricaneinspections.com/stormproof.
 """
 
@@ -78,8 +78,8 @@ async def stormproof_lookup(address: str, date: str) -> dict[str, Any]:
           miles from the property
         - dataAvailable: Boolean — false if no stations returned usable data
         - attribution: Source citation string for the returned values
-        - upgradeUrl: URL for the full paid report with exact peaks and
-          PE-signed PDF
+        - upgradeUrl: URL for the full paid report with exact peaks and 
+        a detailed PDF
     """
 
     # ── Input validation ────────────────────────────────────────────────

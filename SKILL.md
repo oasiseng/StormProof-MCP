@@ -32,7 +32,7 @@ This skill wraps the `stormproof_lookup` tool (exposed via the StormProof MCP se
 
 **Where it goes:**
 - Endpoint: `https://storm-verification-api.elairet2021.workers.dev/api/preview`
-- Operator: Oasis Engineering / hurricaneinspections.com (a Florida-registered Licensed PE practice)
+- Operator: Oasis Engineering / hurricaneinspections.com
 - The endpoint is a Cloudflare Worker that queries NOAA ASOS/AWOS and CO-OPS tide gauges on the caller's behalf
 
 **What gets logged:**

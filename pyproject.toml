@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [
-    { name = "Enrique Lairet, PE", email = "hello@hurricaneinspections.com" }
+    { name = "Enrique Lairet, PE", email = "info@hurricaneinspections.com" }
 ]
 keywords = [
     "mcp",
@@ -38,9 +38,9 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://hurricaneinspections.com"
-Documentation = "https://github.com/hurricane-inspections/stormproof-mcp#readme"
-Repository = "https://github.com/hurricane-inspections/stormproof-mcp"
-Issues = "https://github.com/hurricane-inspections/stormproof-mcp/issues"
+Documentation = "https://github.com/hurricane-inspections/stormproof-mcp-server#readme"
+Repository = "https://github.com/hurricane-inspections/stormproof-mcp-server"
+Issues = "https://github.com/hurricane-inspections/stormproof-mcp-server/issues"
 "Full Report" = "https://hurricaneinspections.com/stormproof"
 
 [project.scripts]

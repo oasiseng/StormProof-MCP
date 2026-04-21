@@ -135,7 +135,7 @@ The free tier returns ranges. The [full StormProof report](https://hurricaneinsp
 - **Confidence score** with per-source attribution
 - **Aerial satellite map** with red pin at the property + weather station network map
 - **Full citations** — every data point linked to its NOAA source URL
-- **Claim-ready PDF** — multi-page, PE-signed, ready to hand to an adjuster
+- **Claim-ready PDF** — multi-page, ready to hand to an adjuster
 
 Plus the [48-page Storm Claim Preparation Guide](https://hurricaneinspections.com), the Damage Documentation Kit, and free Pre-Storm Baseline Photos.
 

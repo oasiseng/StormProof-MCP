@@ -1,0 +1,9 @@
+{
+  "_comment": "For Cursor IDE. Open Settings → Features → MCP, or add this block to ~/.cursor/mcp.json",
+  "mcpServers": {
+    "stormproof": {
+      "command": "uvx",
+      "args": ["stormproof-mcp"]
+    }
+  }
+}

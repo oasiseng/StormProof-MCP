@@ -1,0 +1,54 @@
+[project]
+name = "stormproof-mcp"
+version = "0.1.0"
+description = "MCP server for NOAA hurricane weather verification — wind, gust, storm surge by address and date."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Enrique Lairet, PE", email = "hello@hurricaneinspections.com" }
+]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "hurricane",
+    "noaa",
+    "weather",
+    "storm-surge",
+    "insurance-claim",
+    "anthropic",
+    "claude"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Atmospheric Science",
+]
+dependencies = [
+    "mcp>=1.2.0",
+    "httpx>=0.27.0",
+]
+
+[project.urls]
+Homepage = "https://hurricaneinspections.com"
+Documentation = "https://github.com/hurricane-inspections/stormproof-mcp#readme"
+Repository = "https://github.com/hurricane-inspections/stormproof-mcp"
+Issues = "https://github.com/hurricane-inspections/stormproof-mcp/issues"
+"Full Report" = "https://hurricaneinspections.com/stormproof"
+
+[project.scripts]
+stormproof-mcp = "stormproof_mcp.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["stormproof_mcp"]

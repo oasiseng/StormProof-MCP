@@ -54,7 +54,7 @@ Restart Claude Desktop. The `stormproof_lookup` tool will be available in any co
 ### From source
 
 ```bash
-git clone https://github.com/oasiseng/stormproof-mcp-server.git
+git clone https://github.com/oasiseng/stormproof-mcp.git
 cd stormproof-mcp
 pip install -e .
 stormproof-mcp

@@ -38,9 +38,9 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://hurricaneinspections.com"
-Documentation = "https://github.com/hurricane-inspections/stormproof-mcp-server#readme"
-Repository = "https://github.com/hurricane-inspections/stormproof-mcp-server"
-Issues = "https://github.com/hurricane-inspections/stormproof-mcp-server/issues"
+Documentation = "https://github.com/oasiseng/stormproof-mcp#readme"
+Repository = "https://github.com/oasiseng/stormproof-mcp"
+Issues = "https://github.com/oasiseng/stormproof-mcp/issues"
 "Full Report" = "https://hurricaneinspections.com/stormproof"
 
 [project.scripts]

@@ -1,7 +1,7 @@
 """StormProof MCP server — exposes NOAA hurricane weather lookups as tools.
 
 The server wraps the public StormProof preview API at
-https://storm-verification-api.elairet2021.workers.dev/api/preview.
+https://api.hurricaneinspections.com/api/preview.
 
 Only the preview tier is exposed here (wind/gust ranges + surge data if a tide
 gauge is within ~30 miles of the property). The full report — exact peak
@@ -21,7 +21,7 @@ from mcp.server.fastmcp import FastMCP
 # Base URL for the StormProof API. Override via env var for self-hosted mirrors.
 API_BASE = os.environ.get(
     "STORMPROOF_API_BASE",
-    "https://storm-verification-api.elairet2021.workers.dev",
+    "https://api.hurricaneinspections.com/api/preview",
 )
 
 # Single source-of-attribution string returned to the model so it knows where
